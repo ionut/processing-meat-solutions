@@ -617,10 +617,6 @@ video {
   z-index: 50;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -656,14 +652,6 @@ video {
   height: 5rem;
 }
 
-.min-h-\[230px\] {
-  min-height: 230px;
-}
-
-.min-h-\[200px\] {
-  min-height: 200px;
-}
-
 .min-h-\[180px\] {
   min-height: 180px;
 }
@@ -675,6 +663,10 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .grow {
@@ -807,11 +799,6 @@ video {
      object-fit: contain;
 }
 
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .object-fill {
   -o-object-fit: fill;
      object-fit: fill;
@@ -840,19 +827,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -913,14 +895,6 @@ video {
   transition-duration: 150ms;
 }
 
-@font-face {
-  font-family: "Roboto Condensed";
-
-  src: url("../fonts/RobotoCondensed-VariableFont_wght.ttf");
-
-  font-display: swap;
-}
-
 @media (min-width: 768px) {
   .md\:col-span-2 {
     grid-column: span 2 / span 2;
@@ -964,10 +938,6 @@ video {
     gap: 1.5rem;
   }
 
-  .md\:gap-7 {
-    gap: 1.75rem;
-  }
-
   .md\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -982,11 +952,6 @@ video {
 
   .md\:p-12 {
     padding: 3rem;
-  }
-
-  .md\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .md\:text-4xl {
