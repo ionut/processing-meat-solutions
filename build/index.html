@@ -22,16 +22,29 @@
               alt="test"
               class="w-48 h-20 md:h-24 md:w-64 object-contain"
             />
-            <ul class="flex gap-2 md:gap-4 xl:gap-6">
+            <ul class="flex flex-wrap justify-center gap-2 md:gap-4 xl:gap-6">
+              <li class="flex gap-1 md:gap-2 items-center justify-center">
+                <img
+                  src="images/phone.svg"
+                  alt="Telefon"
+                  class="bg-red rounded-full p-2 size-8 md:size-12 xl:size-14"
+                />
+                <a
+                  href="tel:+0722222222"
+                  class="text-red text-base md:text-xl font-roboto font-medium"
+                >
+                  0722 222 222
+                </a>
+              </li>
               <li class="flex gap-1 md:gap-2 items-center">
                 <img
                   src="images/phone.svg"
                   alt="Telefon"
-                  class="bg-red rounded-full p-2 size-10 md:size-12 xl:size-14"
+                  class="bg-red rounded-full p-2 size-8 md:size-12 xl:size-14"
                 />
                 <a
                   href="tel:+0722222222"
-                  class="text-red text-xl font-roboto font-medium"
+                  class="text-red text-base md:text-xl font-roboto font-medium"
                 >
                   0722 222 222
                 </a>
@@ -40,7 +53,7 @@
                 <img
                   src="images/envelope.svg"
                   alt="Telefon"
-                  class="bg-red rounded-full p-2 size-10 md:size-12"
+                  class="bg-red rounded-full p-2 size-8 md:size-12 xl:size-14"
                 />
                 <a
                   href="mailto:adresa@mail.com"
@@ -56,9 +69,9 @@
     </header>
     <main class="bg-dark">
       <section>
-        <div class="container py-20">
+        <div class="container py-10 md:py-20">
           <div
-            class="grid grid-cols-1 md:grid-cols-4 gap-7 xl:gap-10 items-center"
+            class="grid grid-cols-1 md:grid-cols-4 gap-5 xl:gap-10 items-center"
           >
             <div class="md:col-span-2">
               <h1
@@ -189,7 +202,6 @@
           <a href="mailto:test@test.com" class="text-white text-xl">
             test@test.com
           </a>
-          <p class="text-white text-xl">Strada Nume, Oras Nume, Judet Nume</p>
           <h3 class="text-white text-3xl font-bold font-roboto">
             © Processing Meat Solutions
           </h3>
